@@ -12,7 +12,7 @@ function App() {
         <form className="md:w-96 w-80 flex flex-col items-center justify-center ">
           <div className="flex flex-col text-left w-full pb-6">
             <h1 className="text-[16px] font-semibold">Welcome to the</h1>
-            <h2 className="text-[30px] font-black bg-linear-to-t from-[#2600FF] to-[#FF8400] to-60% bg-clip-text text-transparent">
+            <h2 className="text-[30px] font-black bg-linear-to-t from-[#2600FF] via-[#7132a8] to-[#FF8400] to-75% bg-clip-text text-transparent">
               Digital Ecosystem
             </h2>
           </div>
