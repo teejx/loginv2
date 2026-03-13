@@ -6,3 +6,50 @@
   --font-sans: "Montserrat", sans-serif;
   --tracking-1: 0.15em;
 }
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+.gradient-text {
+  background: linear-gradient(
+    to right,
+    #2a7b9b,
+    #57c785,
+    #fcb045,
+    #57c785,
+    #2a7b9b,
+    #FF4747
+  );
+  background-size: 300% 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+  animation: gradientFlow 3s ease infinite;
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

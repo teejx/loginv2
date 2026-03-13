@@ -1,11 +1,26 @@
 function App() {
   return (
     <div className="flex min-h-screen">
-      <div className="w-3/1 hidden md:inline-block">
+      <div className="w-3/1 hidden md:inline-block relative">
         <img
           src="/src/assets/login-bg.png"
           className="h-full w-full object-cover"
         />
+        <div className="absolute inset-0 bg-linear-to-r from-blue-900/90 via-blue-900/60 to-transparent"></div>
+        <div className="absolute inset-0 bg-black/40">
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
+            <h1 className="text-4xl font-extrabold bg-linear-to-t from-zinc-400 via-zinc-400 to-zinc-300 to-90% bg-clip-text text-transparent tracking-tighter animate-slide-up">
+              Built by Filipino, for Philippine LGU's
+            </h1>
+            <h1 className="text-9xl font-extrabold text-white tracking-tighter ">
+              DIGITIZING THE
+            </h1>
+
+            <h1 className="gradient-text text-transparent text-9xl font-extrabold tracking-tighter ">
+              PHILIPPINES
+            </h1>
+          </div>
+        </div>
       </div>
 
       <div className="w-full flex flex-col items-center justify-center">
