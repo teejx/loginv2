@@ -91,7 +91,7 @@ function App() {
 
             <input
               type="password"
-              placeholder="characters"
+              placeholder="Enter your password"
               className="w-full border border-gray-300/60 h-12 rounded-lg px-6 text-sm mb-4"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -138,7 +138,7 @@ function App() {
             </label>
             <input
               type="password"
-              placeholder="characters"
+              placeholder="Enter new password"
               className="w-full border border-gray-300/60 h-12 rounded-lg px-4 mb-4 text-sm"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -149,7 +149,7 @@ function App() {
             </label>
             <input
               type="password"
-              placeholder="••••••••"
+              placeholder="Confirm password"
               className="w-full border border-gray-300/60 h-12 rounded-lg px-4 mb-2 text-sm"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
