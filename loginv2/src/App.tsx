@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MdRadioButtonUnchecked } from "react-icons/md";
+import { MdRadioButtonUnchecked, MdOutlineLock } from "react-icons/md";
 import { FaCheckCircle } from "react-icons/fa";
 
 function App() {
@@ -123,7 +123,9 @@ function App() {
           <form className="w-full max-w-96 lg:w-96 flex flex-col">
             {/* TITLE */}
             <div className="flex items-center gap-3 mb-4">
-              <div className="bg-indigo-100 p-2 rounded-lg">🔒</div>
+              <div className="bg-indigo-100 p-2 rounded-lg">
+                <MdOutlineLock />
+              </div>
 
               <h1 className="text-xl font-semibold">Set Your Password</h1>
             </div>
